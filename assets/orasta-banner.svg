@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420" role="img" aria-labelledby="title desc">
+  <title id="title">Hi, I'm Orasta</title>
+  <desc id="desc">A peach and lilac banner with gently floating code brackets and a rotating spark. Backend, AI, and a little curiosity.</desc>
+  <style>
+    .float { animation: float 5s ease-in-out infinite; transform-box: fill-box; transform-origin: center; }
+    .spark { animation: turn 14s linear infinite; transform-box: fill-box; transform-origin: center; }
+    @keyframes float { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-12px); } }
+    @keyframes turn { to { transform: rotate(360deg); } }
+    @media (prefers-reduced-motion: reduce) { .float, .spark { animation: none; } }
+  </style>
+  <rect width="1200" height="420" rx="28" fill="#FFF2E8"/>
+  <path d="M827 0H1172Q1200 0 1200 28V392Q1200 420 1172 420H980C898 359 913 312 861 265S762 149 827 0Z" fill="#D7C8F3"/>
+  <g fill="#382B46" font-family="Trebuchet MS, Verdana, sans-serif">
+    <text x="64" y="108" font-size="39">hi, i'm</text>
+    <text x="58" y="235" font-size="128" font-weight="700" letter-spacing="-5">Orasta.</text>
+    <text x="65" y="305" font-size="29">backend, AI &amp; a little curiosity.</text>
+  </g>
+  <path d="M66 342C165 355 317 336 448 347" fill="none" stroke="#D45C36" stroke-width="5" stroke-linecap="round"/>
+  <g class="float">
+    <circle cx="996" cy="209" r="111" fill="#FFF2E8"/>
+    <g fill="none" stroke="#382B46" stroke-width="11" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M940 157L902 209L940 261"/>
+      <path d="M1052 157L1090 209L1052 261"/>
+    </g>
+    <g class="spark" fill="#D45C36">
+      <path d="M996 151L1011 191L1053 209L1011 226L996 266L980 226L938 209L980 191Z"/>
+    </g>
+    <circle cx="1118" cy="92" r="14" fill="#5A775A"/>
+    <circle cx="864" cy="333" r="19" fill="#D45C36"/>
+    <path d="M854 72V106M837 89H871" stroke="#382B46" stroke-width="5" stroke-linecap="round"/>
+  </g>
+</svg>
